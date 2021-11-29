@@ -1,0 +1,21 @@
+_id: req_66cb2cf382d14a12a034216b85fc425e
+type: Request
+parentId: fld_bdb8a7bbfb1f45f8a1d3650d0c483056
+modified: 1638155263554
+created: 1638153950785
+url: "{{ _.BASE_URL }}/coffees/1"
+name: Show
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1638153950785
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

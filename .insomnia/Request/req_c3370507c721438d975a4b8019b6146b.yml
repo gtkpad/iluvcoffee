@@ -1,0 +1,21 @@
+_id: req_c3370507c721438d975a4b8019b6146b
+type: Request
+parentId: fld_bdb8a7bbfb1f45f8a1d3650d0c483056
+modified: 1638153985324
+created: 1638153980666
+url: "{{ _.BASE_URL }}/coffees/123"
+name: Delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1638153980666
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
