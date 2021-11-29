@@ -1,0 +1,37 @@
+_id: req_dbcafc40cbf94d3fb9b1315aa24c4d00
+type: Request
+parentId: fld_bdb8a7bbfb1f45f8a1d3650d0c483056
+modified: 1638154211062
+created: 1638154002708
+url: "{{ _.BASE_URL }}/coffees/123"
+name: Update
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	
+    }
+parameters:
+  - id: pair_fc3e342a8649452195a3a81d8b075f54
+    name: limit
+    value: "20"
+    description: ""
+  - id: pair_5f2e2f24720341529e76589a55d5776c
+    name: offset
+    value: "10"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_42c5491854204f019fcb710ec50b67c7
+authentication: {}
+metaSortKey: -1638154002708
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

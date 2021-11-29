@@ -1,0 +1,29 @@
+_id: req_3e451335657c4fa686b60a70563bd5b9
+type: Request
+parentId: fld_bdb8a7bbfb1f45f8a1d3650d0c483056
+modified: 1638156505653
+created: 1638153969185
+url: "{{ _.BASE_URL }}/coffees"
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_78c00b429ecd45cb8bbdb4f884a8161e
+authentication: {}
+metaSortKey: -1638153969185
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
