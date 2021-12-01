@@ -44,6 +44,6 @@ export class CoffeesController {
 
   @Delete(':id')
   public async remove(@Param('id') id: string) {
-    return await this.remove(id);
+    return await this.coffeesService.remove(id);
   }
 }
