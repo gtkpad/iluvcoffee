@@ -1,9 +1,4 @@
-import {
-  HttpException,
-  HttpStatus,
-  Injectable,
-  NotFoundException,
-} from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { CreateCoffeeDto } from './dto/create-coffee.dto';
@@ -31,7 +26,7 @@ export class CoffeesService {
       relations: ['flavors'],
     });
     if (!coffee) {
-      throw new HttpException(`Coffee ${id} not found`, HttpStatus.NOT_FOUND);
+      throw new NotFoundException(`Coffee #${id} not found`);
     }
     return coffee;
   }
