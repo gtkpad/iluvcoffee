@@ -15,6 +15,12 @@ export class Coffee {
   @Column()
   name: string;
 
+  @Column({ nullable: true })
+  description: string;
+
+  @Column({ default: 0 })
+  recommendations: number;
+
   @Column()
   brand: string;
 
